@@ -1,0 +1,111 @@
+<h1>Animals</h1>
+
+<div id="myCarousel" class="carousel slide" data-interval="false" data-ride="carousel">
+	<!-- Carousel indicators -->
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+   <!-- Carousel items -->
+    <div class="carousel-inner">
+      <div class="active item">
+        <figure class="first-figure">
+          {{#link-to 'gorilla'}}
+          <img src="img/gorilla.jpg" alt="">
+          <figcaption>Mountain Gorillas from Rwanda!</figcaption>
+          {{/link-to}}
+        </figure>
+        <figure class="second-figure">
+          {{#link-to 'lion'}}
+          <img src="img/lion.jpg" alt="">
+          <figcaption>Lions of the Serengeti!</figcaption>
+          {{/link-to}}
+        </figure>
+      </div>
+      <div class="item">
+        <figure class="first-figure">
+          {{#link-to 'lion'}}
+          <img src="img/lion.jpg" alt="">
+          <figcaption>Lizards and more!</figcaption>
+          {{/link-to}}
+        </figure>
+        <figure class="second-figure">
+          {{#link-to 'lizard'}}
+          <img src="img/lizard.jpg" alt="">
+          <figcaption>Warthogs are awesome!</figcaption>
+          {{/link-to}}
+        </figure>
+      </div>
+      <div class="item">
+        <figure class="first-figure">
+          {{#link-to 'lizard'}}
+          <img src="img/lizard.jpg" alt="">
+          <figcaption>Lizards and more!</figcaption>
+          {{/link-to}}
+        </figure>
+        <figure class="second-figure">
+          {{#link-to 'warthog'}}
+          <img src="img/warthog.jpg" alt="">
+          <figcaption>Warthogs are awesome!</figcaption>
+          {{/link-to}}
+        </figure>
+      </div>
+      <div class="item">
+        <figure class="first-figure">
+          {{#link-to 'warthog'}}
+          <img src="img/warthog.jpg" alt="">
+          <figcaption>Lizards and more!</figcaption>
+          {{/link-to}}
+        </figure>
+        <figure class="second-figure">
+          {{#link-to 'gorilla'}}
+          <img src="img/gorilla.jpg" alt="">
+          <figcaption>Warthogs are awesome!</figcaption>
+          {{/link-to}}
+        </figure>
+      </div>
+    </div>
+    <!-- Carousel nav -->
+    <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>
+
+
+<hr>
+
+<div class="main-display">
+  <div class="row">
+    <figure>
+      {{#link-to 'gorilla'}}
+      <img src="img/gorilla.jpg" alt="">
+      <figcaption>Mountain Gorillas from Rwanda!</figcaption>
+      {{/link-to}}
+    </figure>
+    <figure>
+      {{#link-to 'lion'}}
+      <img src="img/lion.jpg" alt="">
+      <figcaption>Lions of the Serengeti!</figcaption>
+      {{/link-to}}
+    </figure>
+  </div>
+  <div class="row">
+    <figure>
+      {{#link-to 'lizard'}}
+      <img src="img/lizard.jpg" alt="">
+      <figcaption>Lizards and more!</figcaption>
+      {{/link-to}}
+    </figure>
+    <figure>
+      {{#link-to 'warthog'}}
+      <img src="img/warthog.jpg" alt="">
+      <figcaption>Warthogs are awesome!</figcaption>
+      {{/link-to}}
+    </figure>
+  </div>
+</div>

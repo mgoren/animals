@@ -1,0 +1,60 @@
+.main-display {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.main-display img {
+  height: auto;
+  width: 500px;
+}
+
+figure {
+  margin: 15px;
+  display: inline-block;
+}
+
+figcaption {
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+
+
+h2{
+    margin: 0;
+    color: #666;
+    padding-top: 90px;
+    font-size: 52px;
+    font-family: "trebuchet ms", sans-serif;
+}
+.item{
+    background: #333;
+    text-align: center;
+}
+.carousel{
+    margin-top: 20px;
+}
+#myCarousel{
+	margin: 20px;
+}
+
+.carousel figcaption {
+  color: white;
+}
+
+.second-figure {
+  width: 400px;
+}
+
+.first-figure {
+  width: 600px;
+}

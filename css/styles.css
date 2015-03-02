@@ -6,7 +6,6 @@
 .social-icon {
   height: 20px;
   display: inline-block;
-  margin-top: 15px;
 }
 
 .social-icons {
@@ -72,4 +71,14 @@ h2 {
 
 .first-figure {
   width: 600px;
+}
+
+.social-menu {
+  margin: 0;
+  padding: 5px;
+}
+
+.social-menu img {
+  width: 35%;
+  margin: 5px;
 }

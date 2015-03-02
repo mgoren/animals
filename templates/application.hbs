@@ -5,14 +5,23 @@
       <li id="nav-header">{{#link-to 'home'}}Animals{{/link-to}}</li>
     </ul>
     <ul class="nav navbar-nav navbar pull-right">
-      <li>{{#link-to 'home'}}Gorillas{{/link-to}}</li>
-      <li>{{#link-to 'home'}}Lions{{/link-to}}</li>
-      <li>{{#link-to 'home'}}Lizards{{/link-to}}</li>
-      <li>{{#link-to 'home'}}Warthogs{{/link-to}}</li>
-      <li class="social-icons">
-        <img class="social-icon" src="img/facebook-icon.png">
-        <img class="social-icon" src="img/twitter-icon.png">
-        <img class="social-icon" src="img/reddit-icon.png">
+      <li>{{#link-to 'gorilla'}}Gorillas{{/link-to}}</li>
+      <li>{{#link-to 'lion'}}Lions{{/link-to}}</li>
+      <li>{{#link-to 'lizard'}}Lizards{{/link-to}}</li>
+      <li>{{#link-to 'warthog'}}Warthogs{{/link-to}}</li>
+      <li class="dropdown social-icons">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+          <img class="social-icon" src="img/facebook-icon.png">
+          <img class="social-icon" src="img/twitter-icon.png">
+          <img class="social-icon" src="img/reddit-icon.png">
+        </a>
+        <ul class="dropdown-menu" role="menu">
+          <div class="social-menu">
+            <img src="img/fb-button.jpg"><br>
+            <img src="img/twitter-button.jpg"><br>
+            <img src="img/pinterest-button.jpg">
+          </div>
+        </ul>
       </li>
     </ul>
   </nav>

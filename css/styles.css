@@ -1,3 +1,17 @@
+/*body {
+  background-color: #FFE3AA;
+}
+
+.container {
+  width: 85%;
+  margin: 2em;
+  background-color: #A8956F;
+}*/
+
+nav {
+  margin-top: 10px;
+}
+
 #nav-header {
   text-transform: uppercase;
   font-size: 20px;

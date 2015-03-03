@@ -1,3 +1,18 @@
+body {
+  background-color: black;
+}
+
+.well {
+  margin-left: 0;
+  background-color: #F8F8F8;
+  margin-top: 0;
+  border-radius: 0px;
+}
+
+#myCarousel, .main-display {
+  font-family: 'Krona One', sans-serif;
+}
+
 /*body {
   background-color: #FFE3AA;
 }
@@ -10,6 +25,12 @@
 
 nav {
   margin-top: 10px;
+}
+
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+
 }
 
 #nav-header {
@@ -46,7 +67,7 @@ figure {
 
 figcaption {
   font-size: 16px;
-  font-weight: bold;
+  /*font-weight: bold;*/
   color: black;
 }
 
@@ -72,20 +93,14 @@ h2 {
 }
 
 #myCarousel {
-	margin: 20px;
+	margin: 0 0 0 0;
 }
 
 .carousel figcaption {
-  color: white;
+  color: black;
 }
 
-.second-figure {
-  width: 400px;
-}
 
-.first-figure {
-  width: 600px;
-}
 
 .social-menu {
   margin: 0;
@@ -95,4 +110,8 @@ h2 {
 .social-menu img {
   width: 35%;
   margin: 5px;
+}
+
+.carousel .item {
+  background-color: #F8F8F8;
 }
